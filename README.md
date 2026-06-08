@@ -8,3 +8,14 @@ A solução busca reduzir drasticamente o tempo de resposta dos órgãos fiscali
 
 O projeto foi desenvolvido como parte da Global Solution 2026/1 da FIAP, conectando a economia espacial com problemas reais na Terra, com foco especial em cidades e comunidades sustentáveis, proteção ambiental e combate à ilegalidade.
 
+Problema e Motivação
+Contexto Urbano – Favelas e APPs
+O Brasil possui mais de 16.400 favelas e comunidades urbanas, abrigando cerca de 16,4 milhões de pessoas (8,1% da população).
+Muitas dessas comunidades crescem de forma acelerada e desordenada, frequentemente invadindo Áreas de Preservação Permanente (APPs) urbanas, como:
+Margens de rios
+Encostas de morros
+Isso gera:
+Desmatamento local
+Aumento do risco de deslizamentos e enchentes
+Ocupação irregular em áreas de alto risco
+Com a nossa solução, os agentes fiscalizadores podem responder entre 24 e 48 horas, reduzindo cerca de 80% a 90% das invasões desse tipo em APPs urbanas.
