@@ -126,6 +126,22 @@ nav .nav-list a:hover {
     margin: 0 auto 20px auto;
 }
 
+#solution1 ul, #solution1 ol,
+#solution2 ul, #solution2 ol,
+#about ul, #about ol {
+    padding-left: 1.5rem;
+}
+
+#solution1 li, #solution2 li, #about li {
+    margin-bottom: 0.5rem;
+}
+
+#solution1 ul, #solution1 ol,
+#solution2 ul, #solution2 ol,
+#about ul, #about ol {
+    padding-left: 1.5rem;
+    list-style-position: inside; /* ← adiciona isso */
+}
 .light-bg {
     background-color: var(--light-bg);
 }
