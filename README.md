@@ -33,3 +33,16 @@ Soluções atuais de monitoramento existem, mas muitas são ineficientes por:
 Dependência de boas condições climáticas (nuvens atrapalham)
 Baixa velocidade de processamento de dados
 Nossa solução busca melhorar o tempo de resposta dos agentes, com estimativa de melhoria de 50% a 70% nos parâmetros de impedimento da ilegalidade.
+
+Mineração Ilegal
+A mineração ilegal depende de uma logística pesada:
+Escavadeiras, motores, combustível, mercúrio
+Impactos:
+Desmatamento de florestas
+Degradação do solo
+Poluição de rios e lençóis freáticos
+Com análise de imagens automatizada e dados de radar, nossa solução identifica:
+Solo exposto
+Clareiras
+Alterações em rios
+O objetivo é reduzir em 60% a 80% os casos de mineração ilegal que hoje são detectados tardiamente.
