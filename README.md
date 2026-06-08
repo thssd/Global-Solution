@@ -88,3 +88,13 @@ O sistema salva coordenadas (latitude e longitude) de:
 Terras públicas
 Áreas protegidas
 Apenas mudanças dentro desses perímetros geram alertas prioritários.
+
+Sistema de Alerta
+Ao identificar uma incoerência com a normalidade:
+O sistema gera um alerta com:
+Imagem “antes e depois”
+Coordenadas geográficas
+Tipo de alteração detectada
+Profissionais da central revisam e confirmam a divergência.
+Um alerta é enviado diretamente ao órgão responsável (municipal, estadual ou federal).
+Objetivo: corrigir a irregularidade o mais rápido possível, com dados confiáveis e georreferenciados.
