@@ -185,3 +185,41 @@ Módulo urbano (favelas/APP)
 Módulo de desmatamento (Amazônia/Cerrado)
 Módulo de mineração ilegal
 Módulo de geofencing e alertas
+
+Funcionalidades de Front-End
+Menu de navegação presente em todas as páginas
+Layout responsivo:
+Versões para desktop, tablet e mobile
+Menu hambúrguer em dispositivos móveis
+Interatividade em JavaScript:
+Menu responsivo (abre/fecha no mobile)
+Validação básica do formulário de contato
+Organização do JS em arquivo externo (/js/script.js)
+
+
+Autores
+Junior Custodio
+RM: 572866
+Turma: 1TDSPW
+GitHub: github.com/Junior4744
+LinkedIn: [Junior Custódio](https://www.linkedin.com/in/junior-custódio-74601b38b)
+
+Lucas Fernando Silva
+RM: 564848
+Turma: 1TDSPW
+GitHub: github.com/Lucas-Silva8077
+LinkedIn: [Lucas Fernando](https://www.linkedin.com/in/lucas-fernando-5aa8b6193?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+
+Kauã Barros Ferreira
+RM: 571801
+Turma: 1TDSPW
+GitHub: github.com/KauaBF
+LinkedIn: [Kauã Barros Ferreira](https://www.linkedin.com/in/kauã-barros-ferreira-161a3a36b/)
+
+Thiago Shimizu Sodré
+RM: 572867
+Turma: 1TDSPW
+GitHub: github.com/thssd
+LinkedIn: [Thiago Shimizu Sodré](https://www.linkedin.com/in/thiagoshimizusodre/)
+
+
