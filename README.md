@@ -86,9 +86,6 @@ Cada alerta contém: imagem **antes e depois**, **coordenadas geográficas** e *
 - Algoritmos de IA: *change detection*, cálculo de NDVI, identificação de solo exposto
 - Geofencing com polígonos oficiais (APPs, terras públicas, áreas protegidas)
 
-### Back-End *(Integração Futura)*
-- A definir: Python (Flask / Django), Node.js ou Java com Spring Boot — para receber dados, processar alertas e expor APIs para o front-end.
-
 ---
 
 ## 📁 Estrutura de Pastas
