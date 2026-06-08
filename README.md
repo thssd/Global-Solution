@@ -1,223 +1,178 @@
-# Global-Solution
+# 🌍 Alpha4 — Monitoramento Inteligente de Áreas Críticas
 
-Alpha4 – Monitoramento Inteligente de Áreas Críticas
-Descrição do Projeto
-O Alpha4 é uma plataforma de monitoramento inteligente que integra imagens de satélite, inteligência artificial e análise geoespacial para detectar rapidamente ocupações irregulares, desmatamento ilegal e mineração ilegal em todo o Brasil.
+> Plataforma que integra **imagens de satélite**, **inteligência artificial** e **análise geoespacial** para detectar rapidamente ocupações irregulares, desmatamento ilegal e mineração ilegal em todo o Brasil — com tempo de resposta entre **24 e 48 horas**.
 
-A solução busca reduzir drasticamente o tempo de resposta dos órgãos fiscalizadores (para algo entre 24 e 48 horas), permitindo ações mais rápidas e eficientes em áreas urbanas críticas, biomas como Amazônia e Cerrado, e regiões afetadas por garimpo ilegal.
+Projeto desenvolvido como parte da **Global Solution 2026/1 — FIAP**, conectando a economia espacial a problemas reais na Terra, com foco em cidades e comunidades sustentáveis, proteção ambiental e combate à ilegalidade.
 
-O projeto foi desenvolvido como parte da Global Solution 2026/1 da FIAP, conectando a economia espacial com problemas reais na Terra, com foco especial em cidades e comunidades sustentáveis, proteção ambiental e combate à ilegalidade.
+---
 
-Problema e Motivação
-Contexto Urbano – Favelas e APPs
-O Brasil possui mais de 16.400 favelas e comunidades urbanas, abrigando cerca de 16,4 milhões de pessoas (8,1% da população).
-Muitas dessas comunidades crescem de forma acelerada e desordenada, frequentemente invadindo Áreas de Preservação Permanente (APPs) urbanas, como:
-Margens de rios
-Encostas de morros
-Isso gera:
-Desmatamento local
-Aumento do risco de deslizamentos e enchentes
-Ocupação irregular em áreas de alto risco
-Com a nossa solução, os agentes fiscalizadores podem responder entre 24 e 48 horas, reduzindo cerca de 80% a 90% das invasões desse tipo em APPs urbanas.
+## 📋 Índice
 
-Desmatamento Ilegal – Amazônia e Cerrado
-Segundo o MapBiomas, cerca de 90% do desmatamento no Brasil é ilegal.
-Aproximadamente metade do desmatamento na Amazônia ocorre em:
-Terras públicas não autorizadas
-Áreas protegidas
-Criminosos desmatam para:
-Dar aparência de “terra produtiva”
-Vender terras ilegalmente
-Soluções atuais de monitoramento existem, mas muitas são ineficientes por:
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Problema e Motivação](#problema-e-motivação)
+- [Como a Solução Funciona](#como-a-solução-funciona)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Estrutura de Pastas](#estrutura-de-pastas)
+- [Funcionalidades](#funcionalidades)
+- [Imagens do Projeto](#imagens-do-projeto)
+- [Autores](#autores)
+- [Contato](#contato)
 
-Dependência de boas condições climáticas (nuvens atrapalham)
-Baixa velocidade de processamento de dados
-Nossa solução busca melhorar o tempo de resposta dos agentes, com estimativa de melhoria de 50% a 70% nos parâmetros de impedimento da ilegalidade.
+---
 
-Mineração Ilegal
-A mineração ilegal depende de uma logística pesada:
-Escavadeiras, motores, combustível, mercúrio
-Impactos:
-Desmatamento de florestas
-Degradação do solo
-Poluição de rios e lençóis freáticos
-Com análise de imagens automatizada e dados de radar, nossa solução identifica:
-Solo exposto
-Clareiras
-Alterações em rios
-O objetivo é reduzir em 60% a 80% os casos de mineração ilegal que hoje são detectados tardiamente.
+## 📌 Sobre o Projeto
 
-Como a Solução Funciona
-Satélites Utilizados
-Sentinel-2
-Imagens ópticas de alta resolução para:
+O **Alpha4** é uma plataforma de monitoramento inteligente que analisa dados de satélites para identificar mudanças ilegais no território brasileiro. A solução atua em três frentes principais:
 
-Detectar início de invasões em território
-Identificar clareiras e desmatamento
-Monitorar queimadas e mudanças na vegetação
-Sentinel-1
-Radar que “enxerga” através das nuvens, permitindo:
+- 🏙️ **Ocupações irregulares urbanas** — favelas em APPs e encostas de risco
+- 🌳 **Desmatamento ilegal** — Amazônia e Cerrado
+- ⛏️ **Mineração ilegal** — garimpo e degradação de rios
 
-Monitoramento contínuo mesmo com cobertura de nuvens
-Detecção de mudanças estruturais no solo e na vegetação
-Complemento às imagens ópticas, reduzindo a dependência do clima
+---
 
-Sistema de Identificação
-Comparação Temporal de Imagens
-A IA compara imagens da mesma região em datas diferentes, detectando mudanças relevantes não autorizadas pelos responsáveis.
+## 🔍 Problema e Motivação
 
-NDVI (Índice de Vegetação por Diferença Normalizada)
+### Contexto Urbano — Favelas e APPs
+- O Brasil possui mais de **16.400 favelas**, abrigando cerca de 16,4 milhões de pessoas (8,1% da população).
+- Muitas crescem de forma desordenada, invadindo **Áreas de Preservação Permanente (APPs)** — margens de rios, encostas de morros —, aumentando risco de deslizamentos e enchentes.
+- Com o Alpha4, agentes fiscalizadores podem responder em **24–48h**, reduzindo ~80–90% dessas invasões.
 
-Os satélites capturam luz no infravermelho próximo, que é fortemente refletida por vegetação saudável.
-Scripts em Python ou algoritmos de IA calculam o NDVI da área monitorada.
-Quedas bruscas de NDVI de uma semana para outra indicam:
-Remoção de vegetação
-Desmatamento
-Abertura de clareiras para habitações ou mineração
-Análise de Solo Exposto e Relevo
+### Desmatamento Ilegal — Amazônia e Cerrado
+- Segundo o **MapBiomas**, cerca de **90% do desmatamento no Brasil é ilegal**.
+- Soluções atuais sofrem com dependência climática (nuvens) e baixa velocidade de processamento.
+- O Alpha4 estima melhoria de **50–70%** na velocidade de impedimento da ilegalidade.
 
-Mineração ilegal e garimpo geram forte escavação do solo e alteração de rios.
-O algoritmo identifica:
-Assinaturas de “Solo Exposto” (lama, áreas sem vegetação)
-Alterações em cursos d’água
-Padrões típicos de garimpo
-Geofencing – Cruzamento com Polígonos Oficiais
+### Mineração Ilegal
+- O garimpo ilegal provoca desmatamento, degradação do solo e poluição de rios e lençóis freáticos.
+- Com análise automatizada de radar e imagens ópticas, o objetivo é reduzir em **60–80%** os casos detectados tardiamente.
 
-O sistema salva coordenadas (latitude e longitude) de:
-Áreas de Preservação Permanente (APPs)
-Terras públicas
-Áreas protegidas
-Apenas mudanças dentro desses perímetros geram alertas prioritários.
+---
 
-Sistema de Alerta
-Ao identificar uma incoerência com a normalidade:
-O sistema gera um alerta com:
-Imagem “antes e depois”
-Coordenadas geográficas
-Tipo de alteração detectada
-Profissionais da central revisam e confirmam a divergência.
-Um alerta é enviado diretamente ao órgão responsável (municipal, estadual ou federal).
-Objetivo: corrigir a irregularidade o mais rápido possível, com dados confiáveis e georreferenciados.
+## ⚙️ Como a Solução Funciona
 
-Tecnologias Utilizadas
-Front-End
-HTML5
-CSS3
-JavaScript (Vanilla, sem frameworks externos)
-Arquitetura e Organização
-Estrutura de pastas:
-/css – arquivos de estilo (por exemplo, style.css)
-/js – scripts JavaScript (por exemplo, script.js)
-/assets – imagens, ícones, logos e diagramas
-Arquivos .html na raiz do projeto
-Dados e Processamento (Conceito da Solução)
-Satélites Sentinel-1 e Sentinel-2 (dados de observação da Terra)
-Algoritmos de IA e análise de imagens:
-Detecção de mudança (change detection)
-Cálculo de NDVI
-Identificação de solo exposto e alterações em rios
-Geofencing com polígonos oficiais:
-APPs
-Terras públicas
-Áreas protegidas
-Back-End (conceito / integração futura)
-[A definir pelo grupo, ex.: Python (Flask/Django), Node.js ou Java com Spring Boot para futuramente receber os dados, processar alertas e expor APIs para o front-end.]
+### Satélites Utilizados
 
-Estrutura de Pastas
+| Satélite | Tipo | Uso Principal |
+|---|---|---|
+| **Sentinel-2** | Óptico (alta resolução) | Detecção de invasões, clareiras, queimadas e mudanças na vegetação |
+| **Sentinel-1** | Radar (atravessa nuvens) | Monitoramento contínuo independente do clima, detecção de alterações estruturais |
+
+### Sistema de Identificação
+
+1. **Comparação Temporal de Imagens** — A IA compara a mesma região em datas diferentes, detectando mudanças relevantes não autorizadas.
+2. **NDVI** (Índice de Vegetação por Diferença Normalizada) — Quedas bruscas indicam remoção de vegetação, desmatamento ou abertura de clareiras.
+3. **Análise de Solo Exposto e Relevo** — Identifica assinaturas de garimpo, alterações em rios e padrões típicos de mineração.
+4. **Geofencing** — Cruzamento com polígonos oficiais de APPs, terras públicas e áreas protegidas; apenas mudanças dentro desses perímetros geram alertas prioritários.
+
+### Fluxo de Alerta
+
+```
+Satélite → Captura de Imagem → Algoritmo de IA → Validação Humana → Alerta ao Órgão Responsável
+```
+
+Cada alerta contém: imagem **antes e depois**, **coordenadas geográficas** e **tipo de alteração detectada**.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### Front-End
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### Dados e Processamento *(Conceito da Solução)*
+- Satélites **Sentinel-1** e **Sentinel-2** (ESA — Copernicus Programme)
+- Algoritmos de IA: *change detection*, cálculo de NDVI, identificação de solo exposto
+- Geofencing com polígonos oficiais (APPs, terras públicas, áreas protegidas)
+
+### Back-End *(Integração Futura)*
+- A definir: Python (Flask / Django), Node.js ou Java com Spring Boot — para receber dados, processar alertas e expor APIs para o front-end.
+
+---
+
+## 📁 Estrutura de Pastas
+
+```
 Global-Solution/
-├── index.html
-├── sobre.html
-├── integrantes.html
-├── faq.html
-├── contato.html
-├── solucao1.html
-├── solucao2.html
+├── index.html          # Página inicial — introdução e resumo da proposta
+├── sobre.html          # Sobre o projeto — contexto, problema e ODS da ONU
+├── integrantes.html    # Equipe — nome, RM, turma, foto e links
+├── faq.html            # Perguntas frequentes sobre a solução
+├── contato.html        # Formulário de contato com validação JS
+├── solucao1.html       # Visão geral — objetivos, satélites e fluxo
+├── solucao2.html       # Módulos técnicos detalhados
 ├── css/
-│   └── style.css
+│   └── style.css       # Estilos globais e responsividade
 ├── js/
-│   └── script.js
+│   └── script.js       # Interatividade — menu mobile e validação de formulário
 └── assets/
     ├── logo.png
     ├── solucao2.png
-    ├── foto.jpg
+    ├── foto1.jpg
     ├── foto2.jpg
     ├── foto3.jpeg
     └── foto4.jpeg
+```
 
-    Páginas do Projeto
-index.html – Página inicial
+---
 
-Introdução ao problema e à solução
-Seção hero e resumo da proposta
-sobre.html – Sobre o projeto
+## ✨ Funcionalidades
 
-Contexto, problema, motivação
-Tecnologias utilizadas
-Conexão com ODS da ONU
-integrantes.html – Equipe
+- [x] Menu de navegação presente em todas as páginas
+- [x] Layout **responsivo** — desktop, tablet e mobile
+- [x] Menu **hambúrguer** para dispositivos móveis
+- [x] Validação de formulário de contato via JavaScript
+- [x] Página dedicada para cada módulo da solução
+- [x] Seção de integrantes com foto e links sociais
 
-Lista de integrantes com:
-Nome completo
-RM
-Turma
-Foto
-Links de GitHub e LinkedIn
-faq.html – Perguntas frequentes
+---
 
-Dúvidas comuns sobre a solução
-contato.html – Contato
+## 👥 Autores
 
-Formulário com:
-Nome
-E-mail
-Assunto
-Mensagem
-Validação de campos via JavaScript
-solucao1.html – Visão geral da solução
+<table>
+  <tr>
+    <td align="center">
+      <b>Robinson Custodio Junior</b><br>
+      RM: 572866 | Turma: 1TDSPW<br>
+      <a href="https://github.com/Junior4744">GitHub</a> •
+      <a href="https://www.linkedin.com/in/junior-custódio-74601b38b">LinkedIn</a>
+    </td>
+    <td align="center">
+      <b>Lucas Fernando Silva</b><br>
+      RM: 564848 | Turma: 1TDSPW<br>
+      <a href="https://github.com/Lucas-Silva8077">GitHub</a> •
+      <a href="https://www.linkedin.com/in/lucas-fernando-5aa8b6193">LinkedIn</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Kauã Barros Ferreira</b><br>
+      RM: 571801 | Turma: 1TDSPW<br>
+      <a href="https://github.com/KauaBF">GitHub</a> •
+      <a href="https://www.linkedin.com/in/kauã-barros-ferreira-161a3a36b/">LinkedIn</a>
+    </td>
+    <td align="center">
+      <b>Thiago Shimizu Sodré</b><br>
+      RM: 572867 | Turma: 1TDSPW<br>
+      <a href="https://github.com/thssd">GitHub</a> •
+      <a href="https://www.linkedin.com/in/thiagoshimizusodre/">LinkedIn</a>
+    </td>
+  </tr>
+</table>
 
-Explicação do problema
-Objetivos e métricas de impacto
-Satélites utilizados
-Fluxo de funcionamento (satélite → IA → validação → alerta)
-solucao2.html – Módulos e detalhes técnicos
+---
 
-Módulo urbano (favelas/APP)
-Módulo de desmatamento (Amazônia/Cerrado)
-Módulo de mineração ilegal
-Módulo de geofencing e alertas
+## 🔗 Repositório
 
-Funcionalidades de Front-End
-Menu de navegação presente em todas as páginas
-Layout responsivo:
-Versões para desktop, tablet e mobile
-Menu hambúrguer em dispositivos móveis
-Interatividade em JavaScript:
-Menu responsivo (abre/fecha no mobile)
-Validação básica do formulário de contato
-Organização do JS em arquivo externo (/js/script.js)
+[![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?style=for-the-badge&logo=github)](https://github.com/thssd/Global-Solution)
 
+---
 
-Autores
-Junior Custodio
-RM: 572866
-Turma: 1TDSPW
-GitHub: github.com/Junior4744
-LinkedIn: [Junior Custódio](https://www.linkedin.com/in/junior-custódio-74601b38b)
+## 📬 Contato
 
-Lucas Fernando Silva
-RM: 564848
-Turma: 1TDSPW
-GitHub: github.com/Lucas-Silva8077
-LinkedIn: [Lucas Fernando](https://www.linkedin.com/in/lucas-fernando-5aa8b6193?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+Dúvidas, sugestões ou interesse em colaborar? Entre em contato pelos perfis do LinkedIn acima ou abra uma [issue](https://github.com/thssd/Global-Solution/issues) no repositório.
 
-Kauã Barros Ferreira
-RM: 571801
-Turma: 1TDSPW
-GitHub: github.com/KauaBF
-LinkedIn: [Kauã Barros Ferreira](https://www.linkedin.com/in/kauã-barros-ferreira-161a3a36b/)
+---
 
-Thiago Shimizu Sodré
-RM: 572867
-Turma: 1TDSPW
-GitHub: github.com/thssd
-LinkedIn: [Thiago Shimizu Sodré](https://www.linkedin.com/in/thiagoshimizusodre/)
+> Projeto acadêmico desenvolvido na **FIAP** — Global Solution 2026/1 · Turma 1TDSPW
