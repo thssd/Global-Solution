@@ -46,3 +46,18 @@ Solo exposto
 Clareiras
 Alterações em rios
 O objetivo é reduzir em 60% a 80% os casos de mineração ilegal que hoje são detectados tardiamente.
+
+Como a Solução Funciona
+Satélites Utilizados
+Sentinel-2
+Imagens ópticas de alta resolução para:
+
+Detectar início de invasões em território
+Identificar clareiras e desmatamento
+Monitorar queimadas e mudanças na vegetação
+Sentinel-1
+Radar que “enxerga” através das nuvens, permitindo:
+
+Monitoramento contínuo mesmo com cobertura de nuvens
+Detecção de mudanças estruturais no solo e na vegetação
+Complemento às imagens ópticas, reduzindo a dependência do clima
