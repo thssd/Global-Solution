@@ -221,5 +221,3 @@ RM: 572867
 Turma: 1TDSPW
 GitHub: github.com/thssd
 LinkedIn: [Thiago Shimizu Sodré](https://www.linkedin.com/in/thiagoshimizusodre/)
-
-
