@@ -122,3 +122,24 @@ Terras públicas
 Áreas protegidas
 Back-End (conceito / integração futura)
 [A definir pelo grupo, ex.: Python (Flask/Django), Node.js ou Java com Spring Boot para futuramente receber os dados, processar alertas e expor APIs para o front-end.]
+
+Estrutura de Pastas
+Global-Solution/
+├── index.html
+├── sobre.html
+├── integrantes.html
+├── faq.html
+├── contato.html
+├── solucao1.html
+├── solucao2.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── assets/
+    ├── logo.png
+    ├── solucao2.png
+    ├── foto.jpg
+    ├── foto2.jpg
+    ├── foto3.jpeg
+    └── foto4.jpeg
