@@ -153,7 +153,7 @@ Global-Solution/
       <a href="https://www.linkedin.com/in/kauã-barros-ferreira-161a3a36b/">LinkedIn</a>
     </td>
     <td align="center">
-      <b>Thiago Shimizu Sodré</b><br>
+      <b>Thiago Shimizu Sodré dos Santos</b><br>
       RM: 572867 | Turma: 1TDSPW<br>
       <a href="https://github.com/thssd">GitHub</a> •
       <a href="https://www.linkedin.com/in/thiagoshimizusodre/">LinkedIn</a>
