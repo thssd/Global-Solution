@@ -19,3 +19,17 @@ Desmatamento local
 Aumento do risco de deslizamentos e enchentes
 Ocupação irregular em áreas de alto risco
 Com a nossa solução, os agentes fiscalizadores podem responder entre 24 e 48 horas, reduzindo cerca de 80% a 90% das invasões desse tipo em APPs urbanas.
+
+Desmatamento Ilegal – Amazônia e Cerrado
+Segundo o MapBiomas, cerca de 90% do desmatamento no Brasil é ilegal.
+Aproximadamente metade do desmatamento na Amazônia ocorre em:
+Terras públicas não autorizadas
+Áreas protegidas
+Criminosos desmatam para:
+Dar aparência de “terra produtiva”
+Vender terras ilegalmente
+Soluções atuais de monitoramento existem, mas muitas são ineficientes por:
+
+Dependência de boas condições climáticas (nuvens atrapalham)
+Baixa velocidade de processamento de dados
+Nossa solução busca melhorar o tempo de resposta dos agentes, com estimativa de melhoria de 50% a 70% nos parâmetros de impedimento da ilegalidade.
